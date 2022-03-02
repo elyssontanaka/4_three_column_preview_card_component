@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My solution]()
+- Solution URL: [My solution](https://www.frontendmentor.io/solutions/3column-card-component-uXxUiIuPd)
 - Live Site URL: [3-column preview card component](https://elyssontanaka.github.io/4_three_column_preview_card_component/)
 
 ## My process
@@ -50,5 +50,5 @@ I'm still trying to figure out ways to improve the quality of my code. I'm sure 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Elysson Tanaka](https://elyssontanaka.github.io)
+- Frontend Mentor - [@elyssontanaka](https://www.frontendmentor.io/profile/elyssontanaka)
