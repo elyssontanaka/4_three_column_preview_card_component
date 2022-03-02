@@ -1,0 +1,157 @@
+/* VARIABLES */
+
+:root {
+    --primary-bright-orange: hsl(31, 77%, 52%);
+    --primary-dark-cyan: hsl(184, 100%, 22%);
+    --primary-very-dark-cyan: hsl(179, 100%, 13%);
+    --neutral-paragraph: hsla(0, 0%, 100%, 0.75);
+    --neutral-light-gray: hsl(0, 0%, 95%);
+}
+
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* BASE STYLES */
+
+body {
+    font-size: 1.5rem;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: var(--neutral-light-gray);
+}
+
+button {
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 1.2rem 3rem;
+    border-radius: 2.5rem;
+    border-color: transparent;
+    background-color: var(--neutral-light-gray);
+    cursor: pointer;
+    transition: .3s all;
+    font-size: 1.5rem;
+}
+
+button:hover {
+    border: 2px solid var(--neutral-light-gray);
+    background-color: transparent;
+    color: white;
+}
+
+img, h1, p {
+    margin-bottom: 2rem;
+}
+
+p {
+    color: var(--neutral-paragraph);
+    line-height: 1.6;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 4rem;
+    color: var(--neutral-light-gray);
+}
+
+/* CARD */
+
+.card-holder {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: .8rem;
+    overflow: hidden;
+}
+
+.box {
+    max-width: 32.5rem;
+    padding: 4.5rem;
+}
+
+
+.sedans {
+    background-color: var(--primary-bright-orange);
+}
+
+.sedans button {
+    color: var(--primary-bright-orange);
+}
+
+.sedans button:hover {
+    color: var(--neutral-light-gray);
+}
+
+.suvs {
+    background-color: var(--primary-dark-cyan);
+}
+
+.suvs button {
+    color: var(--primary-dark-cyan);
+}
+
+.suvs button:hover {
+    color: var(--neutral-light-gray);
+}
+
+.luxury {
+    background-color: var(--primary-very-dark-cyan);
+}
+
+.luxury button {
+    color: var(--primary-very-dark-cyan);
+}
+
+.luxury button:hover {
+    color: var(--neutral-light-gray);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* DESKTOP STYLE */
+
+@media (min-width: 1200px) {
+    .card-holder {
+        height: 100vh;
+    }
+
+    .card-container {
+        flex-direction: row;
+    }
+
+    .box {
+        max-width: 31rem;
+        padding: 5rem;
+    }
+
+    img, h1, p {
+        margin-bottom: 3rem;
+    }
+
+    button {
+        margin-top: 5rem;
+    }
+}
